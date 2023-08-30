@@ -5,16 +5,6 @@ import os
 import sys
 
 
-class error_popup():
-    def __init__(self):
-        self.error = Tk()
-        self.error.geometry("240x100")
-        self.error.minsize(240, 100)
-        self.error.title("erreur")
-        self.img = Image(self.error, file="error_img.png")
-        self.error.mainloop()
-    def quit_button(self):
-        self.error.destroy()
 
 
 try:
@@ -32,11 +22,11 @@ color_font_qrcode: str = "white"
 
 # creation de la fenêtre
 window = Tk()
-window.title('création de qr code')
+window.title('QrPy')
 window.geometry('950x550')
 window.minsize(600, 350)
-title = Label(window, text='crée votre qrcode project', font=("calibri", 50))
-title.pack()
+title = Label(window, text='Créer votre QR code', font=("calibri", 50))
+title.pack(pady=12)
 
 # création de la Frame qui contiaint les instructions
 Frame = Frame(window)

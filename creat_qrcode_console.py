@@ -5,11 +5,11 @@ try:
     import os
 except:
     import os
-    os.system("pip install qrcode[pil]")
-    os.system("pip install termcolor")
+    os.system("pip3 install qrcode[pil]")
+    os.system("pip3 install termcolor")
     import qrcode
     from qrcode.constants import ERROR_CORRECT_L
-    from termcolor import *
+    import termcolor
 valid = False
 url_qrcode = input("entrée l'url du qrcode: ")
 name_qrcode = input("entrée le nom du qrcode: ")

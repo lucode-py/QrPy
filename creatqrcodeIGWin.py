@@ -20,11 +20,11 @@ color_font_qrcode: str = "white"
 
 # creation de la fenêtre
 window = Tk()
-window.title('création de qr code')
+window.title('QrPy')
 window.geometry('950x550')
 window.minsize(600, 350)
-title = Label(window, text='crée votre qrcode project', font=("calibri", 50))
-title.pack()
+title = Label(window, text='Créer votre QR code', font=("calibri", 50))
+title.pack(pady=12)
 
 # création de la Frame qui contiaint les instructions
 Frame = Frame(window)
