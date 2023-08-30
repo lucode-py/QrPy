@@ -4,7 +4,7 @@
 
 ## Installation
 
-Pour utiliser ce générateur de codes QR, vous devez installer le module `qrcode` avec la dépendance<br/>
+Pour utiliser QrPy, vous devez installer le module `qrcode` avec la dépendance
 `pillow` pour le traitement des imageset ainsi du module `termcolor` pour la version. <br/>
 Vous pouvez le faire en exécutant les commande suivante :<br/>
 
