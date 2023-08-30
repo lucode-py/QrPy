@@ -21,11 +21,11 @@ Pour utiliser ce générateur de codes QR, vous devez installer le module `qrcod
 
 QrPy vous permet de créer facilement des codes QR en Python.
 
-vous avez le choix entre les types de program
+Vous avez le choix entre les types de program:
 
 ### programme console
 
-si vous n'avez pas d'interface sur votre os vous avez le programme en console
+Si vous n'avez pas d'interface sur votre os vous avez le programme en console
 
 ![program console](asset/img_console.png)
 
