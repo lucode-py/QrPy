@@ -5,7 +5,7 @@
 ## Installation
 
 Pour utiliser QrPy, vous devez installer le module `qrcode` avec la dépendance
-`pillow` pour le traitement des imageset ainsi du module `termcolor` pour la version. <br/>
+`pillow` pour le traitement des imageset ainsi du module `termcolor` pour la version console. <br/>
 Vous pouvez le faire en exécutant les commande suivante :<br/>
 
 #### Pour mac/linux:
