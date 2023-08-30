@@ -4,18 +4,22 @@
 
 ## Installation
 
-Pour utiliser ce générateur de codes QR, vous devez installer le module `qrcode` ainsi que la dépendance<br/>
-`pillow` pour le traitement des images. Vous pouvez le faire en exécutant les commande suivante :<br/>
+Pour utiliser ce générateur de codes QR, vous devez installer le module `qrcode` avec la dépendance<br/>
+`pillow` pour le traitement des imageset ainsi du module `termcolor` pour la version. <br/>
+Vous pouvez le faire en exécutant les commande suivante :<br/>
 
 #### Pour mac/linux:
 
 `pip3 install pillow`<br/>
-`pip3 install qrcode`
+`pip3 install qrcode`<br/>
+`pip3 install termcolor`
+
 
 #### Pour windows:
 
 `pip install pillow`<br/>
-`pip install qrcode`
+`pip install qrcode`<br/>
+`pip install termcolor`
 
 ## Présentation
 
